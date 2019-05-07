@@ -1,6 +1,9 @@
 def kisebb():
-
-
-
-
-main()
+    s=[]
+    li=[0,4,7]
+    n=int(input("Adjon meg egy 1000-nél kisebb számot:"))
+    for i in range(0,n+1):
+        n=n.split(' ')
+        if n in li:
+            s+=n
+print(s)
