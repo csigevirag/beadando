@@ -14,7 +14,7 @@ def kisebb(n):
         return 'Adjon meg 1000 vagy annál kisebb számot!'
 
 
-print(valami(str(1001)))
+print(kisebb(str(100)))
 
 # LEFUT,DE NEM CSAK AZOK A SZÁMOK VANNAK BENNE
 def kisebb(n):
