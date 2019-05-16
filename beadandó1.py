@@ -13,7 +13,8 @@ def pozitiv(n):
             i = i + 1
         return False
 # WHILE MAIN:
-print(pozitiv(5))
+n=5
+print(pozitiv(n))
 
 # # FOR CIKLUSSAL:
 # def pozitiv(n):
