@@ -7,7 +7,6 @@ def rendezo(c):
     paros=[]
     paratlan=[]
     null=[]
-    egyeb=[]
     for i in c:
         li.append(i)
     for j in li:
@@ -21,15 +20,12 @@ def rendezo(c):
                 paratlan.append(j)
             elif int(j)==0:
                 null.append(j)
-            else:
-                egyeb.append(j)
     kicsi.sort()
     nagy.sort()
     paros.sort()
     paratlan.sort()
     null.sort()
-    egyeb.sort()
-    x=kicsi+nagy+paros+paratlan+egyeb+null
+    x=kicsi+nagy+paros+paratlan+null
     y=''.join(x)
     return y
 
